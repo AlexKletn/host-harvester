@@ -2,7 +2,7 @@
 
 [English version](README.md)
 
-[Качество кода](CODE_QUALITY.ru.md) · [Соглашение о коммитах](COMMIT_CONVENTIONS.ru.md)
+[Качество кода](CODE_QUALITY.ru.md) · [Соглашение о коммитах](COMMIT_CONVENTIONS.ru.md) · [Участие в проекте](CONTRIBUTING.ru.md) · [GPL-2.0-only](LICENSE)
 
 ## Назначение
 

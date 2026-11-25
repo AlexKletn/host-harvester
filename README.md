@@ -2,7 +2,7 @@
 
 [Русская версия](README.ru.md)
 
-[Code quality](CODE_QUALITY.md) · [Commit convention](COMMIT_CONVENTIONS.md)
+[Code quality](CODE_QUALITY.md) · [Commit convention](COMMIT_CONVENTIONS.md) · [Contributing](CONTRIBUTING.md) · [GPL-2.0-only](LICENSE)
 
 ## Purpose
 
