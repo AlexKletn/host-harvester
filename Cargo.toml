@@ -1,0 +1,18 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/hharvester-mount",
+    "crates/hharvester-profile",
+    "crates/hharvester-storage",
+    "crates/hharvester-storage-files",
+    "crates/hharvester-values",
+    "crates/host-harvester",
+]
+
+[workspace.package]
+edition = "2024"
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+toml = "1.2"
+nix = "0.31"

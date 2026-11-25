@@ -1,0 +1,16 @@
+[package]
+name = "host-harvester"
+version = "0.1.0"
+edition.workspace = true
+
+[dependencies]
+hharvester-mount = { path = "../hharvester-mount" }
+hharvester-profile = { path = "../hharvester-profile" }
+hharvester-storage = { path = "../hharvester-storage" }
+hharvester-storage-files = { path = "../hharvester-storage-files" }
+hharvester-values = { path = "../hharvester-values" }
+nix = { workspace = true, features = ["socket", "uio"] }
+
+[[test]]
+name = "early_boot"
+path = "tests/early_boot.tests.rs"

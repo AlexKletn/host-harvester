@@ -1,0 +1,8 @@
+[package]
+name = "hharvester-storage-files"
+version = "0.1.0"
+edition.workspace = true
+
+[dependencies]
+hharvester-storage = { path = "../hharvester-storage" }
+hharvester-values = { path = "../hharvester-values" }
