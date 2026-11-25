@@ -1,0 +1,21 @@
+[[sources]]
+path = "/dev/disk/by-partlabel/persist"
+filesystem = "ext4"
+
+[[sources.entries]]
+key = "bluetooth.address"
+path = "bd_addr.bin"
+kind = "text"
+
+[[sources.entries]]
+key = "wifi.address"
+path = "qca6390/wlan_mac.bin"
+kind = "text"
+
+[[sources]]
+path = "/usr/lib/firmware"
+
+[[sources.entries]]
+key = "touch.firmware"
+path = "novatek/novatek_ts_tm_fw_6.bin"
+kind = "file"

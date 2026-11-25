@@ -18,7 +18,7 @@ For early boot, `nobscur-init` needs to make the store available and start the r
 
 ## Run it
 
-The profile lists mounted directories or block devices, and each entry has a unique key, a relative path, and type `file` or `text`. Omit `filesystem` for an existing directory. Set it for a block device so early boot can mount it directly through Linux without a mount helper. This example assumes the external firmware was provisioned under the source directory.
+The profile lists mounted directories or block devices, and each entry has a unique key, a relative path, and type `file` or `text`. Omit `filesystem` for an existing directory. Set it for a block device so early boot can mount it directly through Linux without a mount helper. The [example TB371FC profile](profiles/example.toml) uses paths from the running system. In initramfs, point the firmware source at the mounted root, for example `/sysroot/usr/lib/firmware`, and make sure the block device path resolves there. The inline example assumes the external firmware was provisioned under the source directory.
 
 ```toml
 [[sources]]
